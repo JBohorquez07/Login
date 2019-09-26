@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Rubik&display=swap" rel="stylesheet">
+    <!--icons-->
+    <link rel="stylesheet" href="./assets/css/fontello.css">
+    <!--Styles-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <title>Login</title>
+</head>
+
+<body>
+   <div class="container">
+        <div class="card">
+            <div class="row">
+                <div class="col s12 m6 l6 bg-login" id="seccion-1">
+              
+                </div>
+                <div class="col s12 m6 l6" id="seccion-2">
+                    <h4>Login</h4>
+                    <h5>Bienvenidos</h5>
+                    <p class="seccion-2">Inicie sesión introduciendo la siguiente información</p>
+                        <div class="card-content">
+                            <div class="input-field" id="input-email">
+                                <i class="icon-mail-2 icon prefix" id="icon-email"></i>
+                                    <input id="email" type="email" class="validate input-login">
+                                    <label for="email">Correo electrónico</label>
+                                <span id="vacio"></span>
+                            </div>
+                            <div class="input-field" id="input-pass">
+                                <i class="icon-lock-1 icon prefix" id="icon-pass"></i>
+                                    <input id="password" type="password" class="validate input-login">
+                                    <label for="password">Contraseña</label>
+                                <span id="vacio"></span>
+                            </div>
+                           <div class="row">
+                                <div class="col">
+                                    <label>
+                                        <input type="checkbox" />
+                                        <span>Recordar contraseña</span>
+                                    </label>
+                                </div>
+                            <div class="col center-align link">
+                                <a href="#">¿Olvidaste la contraseña?</a>
+                            </div>
+                           </div>  
+                            <div class="btn-enviar">
+                                <a href="#" class="waves-effect waves-teal btn" id="btnEntrar">Iniciar sesión</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+            </div>
+        </div>
+   </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/validar_campos.js"></script> 
+</body>
+</html>

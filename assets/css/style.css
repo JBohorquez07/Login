@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Farro:400,700|Roboto:400,700&display=swap');
+
+:root{
+    --primero: #741d51;
+    --segundo: #e44e52;
+    --btn-enviar: #e44e52;
+    --btn-enviar-hover: #fd555b;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    background-blend-mode: soft-light;
+    /* background: -moz-linear-gradient(to left, var(--primero), var(--segundo));
+    background: -webkit-linear-gradient(to left, var(--primero), var(--segundo));
+    background: linear-gradient(to left, var(--primero), var(--segundo)); */
+}
+h4{text-align: center; color: var(--segundo); font-weight: bold;}
+h5{text-align: center;}
+.seccion-2{text-align: center; color: rgb(189, 189, 189)}
+.card{
+    margin-top: 10px; 
+}
+.card-content{
+    padding: 0px!important;
+}
+#seccion-2{
+    padding: 30px;
+}
+.bg-login{
+    background-image: url('../img/fondo_login.jpg');
+    
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    background-color: rgb(88, 88, 88);
+    background-blend-mode: soft-light;
+    height: 665px;
+}
+/*iconos e inputs*/
+.icon{
+    color: #cccccc;
+    font-size: 22px!important;
+    margin-left: 0px !important;
+    padding: 0 !important;
+}
+input{
+    margin: 0px !important;
+    padding-left: 35px !important;
+}
+label{
+    margin-left: 35px !important;
+}
+
+/* card*/
+.img-card{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 1px solid #cccccc;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-image: -moz-linear-gradient(to left, var(--primero), var(--segundo));
+    background-image: -webkit-linear-gradient(to left, var(--primero), var(--segundo));
+    background-image: linear-gradient(to left, var(--primero), var(--segundo));   */
+}
+ 
+h5{color: #000; padding-top: 50px; font-size: 25px;}
+#input-email{margin: 50px 20px 40px 20px;}
+#input-pass{margin: 30px 20px 20px 20px;}
+.btn-enviar{margin: 20px 20px 0px 20px;}
+span{margin-left: 0!important; margin-top: 10px;}
+
+/* link */
+.link{margin: 15px;}
+
+/* boton*/
+.btn{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background: var(--segundo);    
+}
+
+.btn:hover{
+    background:var(--btn-enviar-hover);
+
+}
+.btn:focus{
+    background: var(--btn-enviar);
+}
+
+@media (max-width: 700px){
+    #seccion-1{display: none;}
+    #seccion-2{width: 100%;}
+}
